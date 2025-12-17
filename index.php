@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <title>Nyonyintono Henry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your best supplier of clay tiles and roofing products like Partition blocks, Roofing tiles,Floor tiles, Facing bricks">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+     
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -238,13 +240,12 @@
                         <div class="eight-banner-content">
                             <div class="banner-content-box appeight-headline pera-content">
                                 <h1 class="cd-headline clip is-full-width text-warning">
-                                    Your best clay tiles and roofing products like; <br>
+                                    Your relaibale supplier of clay tiles and roofing products like; <br>
                                     <span class="cd-words-wrapper">
-                                        <b class="is-visible">Maxpans</b>
-                                        <b>Partition blocks</b>
-                                        <b>Roofing tiles</b>
-                                        <b>Floor tiles</b>
-                                        <b>Facing bricks</b>
+                                        <b class="is-visible">Clay Roofing tiles</b>
+                                        <b>Clay Partition blocks</b>
+                                        <b>Clay Floor tiles</b>
+                                        <b>Clay Facing bricks</b>
                                     </span>
                                 </h1>
                                 <P>Reach out to us for all you clay construction products. </P>

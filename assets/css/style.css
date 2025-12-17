@@ -224,7 +224,7 @@ theme.
     position: fixed;
     border-radius: 100%;
     line-height: 55px;
-    background-image: linear-gradient(-45deg, #e511e6 32%, #6b2c94 100%);
+    background-image: linear-gradient(-45deg, #D27D2D 32%, #D27D2D 100%);
   }
   .ei-scrollup i {
     color: #fff;
@@ -580,7 +580,7 @@ theme.
 Sticky Menu
 -------------------------------- */
 .eisticky-menu-bg-overlay {
-  background-color: #CC7722;
+  background-color: #FFFFFF;
   animation-duration: 0.7s;
   animation-fill-mode: both;
   animation-name: fadeInDown;

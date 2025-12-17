@@ -95,7 +95,8 @@
         }
 
         .eight-banner-section {          
-            background: #D27D2D;        
+            /* background: #D27D2D;   */
+            background: #ffffff;        
         }
 
         /* Section Divider */
@@ -191,15 +192,15 @@
                 <div class="site-logo float-left">
                     <a href="#" class="logo-wrap d-flex align-items-center text-decoration-none">
                         <img src="images/logo.png" alt="Nyonyintono Logo" class="logo-img">
-                        <span class="logo-text">Nyonyintono</span>
+                        <span class="logo-text text-dark">Nyonyintono</span>
                     </a>
                  </div>
 
                 <nav class="navigation-eight ul-li">
                     <ul>
-                        <li><a class="nav-link" href="#eight-banner">Home</a></li>
-                        <li><a class="nav-link" href="#feature-eight">About</a></li>
-                        <li><a class="nav-link" href="#eight-service">Product</a></li>
+                        <li><a class="nav-link text-dark" href="#eight-banner">HOME</a></li>
+                        <li><a class="nav-link text-dark" href="#feature-eight">ABOUT US</a></li>
+                        <li><a class="nav-link text-dark" href="#eight-service">PRODUCTS</a></li>
                     </ul>
                 </nav>
                                
@@ -207,7 +208,7 @@
            
             <div class="appi-ei-mobile_menu relative-position">
                 <div class="appi-ei-mobile_menu_button appi-ei-open_mobile_menu">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars text-warning"></i>
                 </div>
                 <div class="appi-ei-mobile_menu_wrap">
                     <div class="mobile_menu_overlay appi-ei-open_mobile_menu"></div>
@@ -220,9 +221,9 @@
                         </div>
                         <nav class="appi-ei-mobile-main-navigation  clearfix ul-li">
                             <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                                <li><a class="nav-link" href="#eight-banner">Home</a></li>
-                                <li><a class="nav-link" href="#feature-eight">About</a></li>
-                                <li><a class="nav-link" href="#eight-service">Product</a></li>
+                                <li><a class="nav-link" href="#eight-banner">HOME</a></li>
+                                <li><a class="nav-link" href="#feature-eight">ABOUT US</a></li>
+                                <li><a class="nav-link" href="#eight-service">PRODUCTS</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -236,7 +237,7 @@
                     <div class="col-lg-12">
                         <div class="eight-banner-content">
                             <div class="banner-content-box appeight-headline pera-content">
-                                <h1 class="cd-headline clip is-full-width">
+                                <h1 class="cd-headline clip is-full-width text-warning">
                                     Your best clay tiles and roofing products like; <br>
                                     <span class="cd-words-wrapper">
                                         <b class="is-visible">Maxpans</b>
@@ -248,8 +249,8 @@
                                 </h1>
                                 <P>Reach out to us for all you clay construction products. </P>
                                 <div class="ei-banner-btn">                            
-                                    <a href="https://wa.me/256773249651"  >
-                                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                                    <a href="https://wa.me/256700353517">
+                                        <i class="fab fa-whatsapp text-success"></i> WhatsApp
                                     </a>
                                 </div>
 
@@ -263,19 +264,19 @@
                         <div class="eight-feature-content">
                             <div class="row justify-content-md-center">
 
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <img src="images/roofing.jpg" alt=""> <br> <br>
-                                    <h5 class="text-white text-center">Roofing Tiles</h5>                                    
+                                    <h5 class="text-dark text-center">Roofing Tiles</h5>                                    
                                 </div>
 
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <img src="images/suspended.jpg" alt=""> <br> <br>
-                                    <h5 class="text-white text-center">Suspended Floor Tiles</h5>                                
+                                    <h5 class="text-dark text-center">Suspended Floor Tiles</h5>                                
                                 </div>
 
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
                                     <img src="images/bricksfloors.jpg" alt=""> <br> <br>
-                                    <h5 class="text-white text-center">Bricks And Floor Tiles</h5>                                 
+                                    <h5 class="text-dark text-center">Bricks And Floor Tiles</h5>                                 
                                 </div>
                                     
                             </div>
@@ -327,7 +328,7 @@
             
             <div class="container py-5">
               
-                <div class="text-center mb-5">
+                <div class="text-center mb-5 mb-5">
                     <h2 class="fw-bold">Bricks & Floor Tiles</h2>
                     <p class="text-muted">
                         Premium quality bricks and floor tiles engineered for strength, durability, <br> and elegance.
@@ -349,7 +350,7 @@
 
             <div class="container">     
 
-               <div class="text-center mb-5">
+               <div class="text-center mt-5 mb-5">
                     <h2 class="fw-bold">Decorative Grills</h2>
                     <p class="text-muted">
                         Elegantly crafted decorative grills designed to enhance security while adding <br> timeless beauty and architectural character to your spaces.
@@ -368,7 +369,7 @@
 
             <div class="container">
 
-                <div class="text-center mb-5">
+                <div class="text-center mt-5 mb-5">
                     <h2 class="fw-bold">Roofing Tiles</h2>
                     <p class="text-muted">
                         Premium roofing tiles designed for durability, weather resistance, and <br> long-lasting protection, while enhancing the aesthetic appeal of any building.
@@ -386,7 +387,7 @@
 
             <div class="container">
 
-                <div class="text-center mb-5">
+                <div class="text-center mt-5 mb-5">
                     <h2 class="fw-bold">Suspended Floor Units</h2>
                     <p class="text-muted">
                         Robust and high-quality suspended floor units engineered for strength, <br> stability, and long-lasting performance, ideal for multi-storey buildings and commercial structures.
@@ -403,7 +404,7 @@
             </div>
 
             <div class="container">
-                <div class="text-center mb-5">
+                <div class="text-center mt-5 mb-5">
                     <h2 class="fw-bold">Ventilators</h2>
                     <p class="text-muted">
                         Efficient and durable ventilators designed to improve airflow, regulate temperature, <br> and enhance comfort, while maintaining aesthetic appeal in any building.
@@ -419,7 +420,7 @@
             </div>
 
             <div class="container">
-                <div class="text-center mb-5">
+                <div class="text-center mt-5 mb-5">
                     <h2 class="fw-bold">Walling & Partitioning Blocks</h2>
                     <p class="text-muted">
                         Premium walling and partitioning blocks engineered for strength, insulation, <br> and soundproofing, providing reliable structural solutions for both residential and commercial projects.
@@ -501,7 +502,7 @@
                 $name = ucwords(str_replace(['-', '_'], ' ', pathinfo($image, PATHINFO_FILENAME)));
                 echo '
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-card">
+                    <div class="product-card mb-3">
                         <img src="'.$image.'" alt="'.$name.'">
                         <div class="product-overlay">
                             <h6>'.$name.'</h6>

@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <title>Nyonyintono Henry</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Your best supplier of clay tiles and roofing products like Partition blocks, Roofing tiles,Floor tiles, Facing bricks">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Nyonyintono Henry, clay Partition blocks, clay Roofing tiles, clay Floor tiles, clay Facing bricks">
+    <meta name="description" content="Your best supplier of clay tiles and roofing products like clay Partition blocks, clay Roofing tiles, clay Floor tiles, clay Facing bricks">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
      
     <link rel="icon" href="images/logo.png" type="image/x-icon">
@@ -95,13 +98,7 @@
                 font-size: 20px;
             }
         }
-
-        .eight-banner-section {          
-            /* background: #D27D2D;   */
-            background: #ffffff;        
-        }
-
-        /* Section Divider */
+ 
 .divider {
     width: 80px;
     height: 4px;
@@ -176,6 +173,124 @@
 }
 
 
+.landing-banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* full screen height */
+    background-image: url('images/nyonyintono.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+}
+.landing-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55); /* adjust darkness */
+    z-index: 1;
+}
+
+.landing-banner .banner-content-box {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+ @media (max-width: 768px) {
+    .landing-banner {
+        min-height: 80vh;
+        text-align: center;
+    }
+
+    .banner-content-box {
+        padding: 20px;
+    }
+}
+
+#header-eight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: transparent;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.landing-banner {
+    padding-top: 140px; /* header height */
+}
+
+#header-eight.scrolled {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.eight-banner-section {
+    background: transparent;
+    padding: 0;
+}
+
+.landing-banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('images/nyonyintono.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding-top: 140px;  
+}
+
+.landing-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+.banner-content-box {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #header-eight {
+        position: fixed;
+    }
+
+    .landing-banner {
+        min-height: 90vh;
+        padding-top: 120px;
+        text-align: center;
+    }
+}
+
+#header-eight .navigation-eight a,
+#header-eight .logo-text {
+    color: #fff !important;
+}
+
+@media (max-width: 768px) {
+    #header-eight {
+        background: rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+
+
+
+
+
 
 
     </style>
@@ -194,15 +309,15 @@
                 <div class="site-logo float-left">
                     <a href="#" class="logo-wrap d-flex align-items-center text-decoration-none">
                         <img src="images/logo.png" alt="Nyonyintono Logo" class="logo-img">
-                        <span class="logo-text text-dark">Nyonyintono</span>
+                        <span class="logo-text text-light">Nyonyintono</span>
                     </a>
                  </div>
 
                 <nav class="navigation-eight ul-li">
                     <ul>
-                        <li><a class="nav-link text-dark" href="#eight-banner">HOME</a></li>
-                        <li><a class="nav-link text-dark" href="#feature-eight">ABOUT US</a></li>
-                        <li><a class="nav-link text-dark" href="#eight-service">PRODUCTS</a></li>
+                        <li><a class="nav-link text-light" href="#eight-banner">HOME</a></li>
+                        <li><a class="nav-link text-light" href="#feature-eight">ABOUT US</a></li>
+                        <li><a class="nav-link text-light" href="#eight-service">PRODUCTS</a></li>
                     </ul>
                 </nav>
                                
@@ -234,13 +349,13 @@
         </header>
    
         <section id="eight-banner" class="eight-banner-section position-relative">
-            <div class="container">
+            
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="eight-banner-content">
+                         <div class="eight-banner-content landing-banner">
                             <div class="banner-content-box appeight-headline pera-content">
                                 <h1 class="cd-headline clip is-full-width text-warning">
-                                    Your relaibale supplier of clay tiles and roofing products like; <br>
+                                    Your reliable supplier of clay tiles and roofing products;<br>
                                     <span class="cd-words-wrapper">
                                         <b class="is-visible">Clay Roofing tiles</b>
                                         <b>Clay Partition blocks</b>
@@ -248,19 +363,17 @@
                                         <b>Clay Facing bricks</b>
                                     </span>
                                 </h1>
-                                <P>Reach out to us for all you clay construction products. </P>
-                                <div class="ei-banner-btn">                            
+
+                                <p>Reach out to us for all you clay construction products.</p>
+
+                                <div class="ei-banner-btn">
                                     <a href="https://wa.me/256700353517">
                                         <i class="fab fa-whatsapp text-success"></i> WhatsApp
                                     </a>
                                 </div>
-
-                                 
-                            </div>
-                            <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <img src="images/nyonyintono.png" alt="">
                             </div>
                         </div>
+
 
                         <div class="eight-feature-content">
                             <div class="row justify-content-md-center">
@@ -286,7 +399,7 @@
 
                     </div>
                 </div>
-            </div>
+        
           
         </section>
    
@@ -338,11 +451,14 @@
                 </div>
 
              
-                <div class="row g-4">
+                <div class="row g-4 justify-content-center">
+                 
                     <?php
                     $folder = "images/bricks_floor_tiles/";
                     loadImages($folder);
                     ?>
+                 
+                    
                 </div>
 
             </div>
@@ -360,7 +476,7 @@
                 </div>
 
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php
                     $folder = "images/decorative/";
                     loadImages($folder);
@@ -378,7 +494,7 @@
                     <div class="divider mx-auto"></div>
                 </div>
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php
                     $folder = "images/roofing_tiles/";
                     loadImages($folder);
@@ -396,7 +512,7 @@
                     <div class="divider mx-auto"></div>
                 </div>
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php
                     $folder = "images/suspended_floor_units/";
                     loadImages($folder);
@@ -412,7 +528,7 @@
                     </p>
                     <div class="divider mx-auto"></div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php
                     $folder = "images/ventilators/";
                     loadImages($folder);
@@ -428,7 +544,7 @@
                     </p>
                     <div class="divider mx-auto"></div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <?php
                     $folder = "images/walling/";
                     loadImages($folder);
@@ -502,7 +618,7 @@
             foreach ($images as $image) {
                 $name = ucwords(str_replace(['-', '_'], ' ', pathinfo($image, PATHINFO_FILENAME)));
                 echo '
-                <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
                     <div class="product-card mb-3">
                         <img src="'.$image.'" alt="'.$name.'">
                         <div class="product-overlay">
@@ -517,5 +633,18 @@
         
         
         ?>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                const header = document.getElementById("header-eight");
+
+                if (window.scrollY > 80) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+        </script>
+
     </body>
     </html>
